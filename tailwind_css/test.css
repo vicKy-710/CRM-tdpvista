@@ -1,0 +1,28 @@
+*{
+          margin: 0px;
+          padding: 0px;
+}
+
+.test{
+          height: 100vh;
+          width: 100vw;
+}
+
+@media(min-width:400px){
+          .test{
+                    background-color: blue;
+          }
+}
+
+@media(max-width:400px){
+          .test{
+                    background-color: green;
+          }
+}
+
+@media(min-width:1200px){
+          .test{
+                    background-color: red;
+          }
+}
+

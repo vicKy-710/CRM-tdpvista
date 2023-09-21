@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Login page</title>
+          <script src="https://cdn.tailwindcss.com"></script>
+          <script src="https://kit.fontawesome.com/c73b22ec4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+          <section class="bg-slate-400 flex h-screen w-screen items-center justify-center">
+
+                    <div class="bg-gray-300 p-10 rounded-xl items-center justify-center space-y-4     bg-opacity-90 border-4 border-solid border-white backdrop-blur-3 shadow-sm transform">
+
+                              <h2 class="text-fuchsia-600 font-bold flex justify-center my-0 text-lg">Welcome Back !</h2>
+
+                              <p class="flex justify-center font-serif text-slate-500 mt-0 ">Sign in to Continue to Wesbite.</p>
+
+                              <form action="" method="post" class="px-1">
+
+                                        <label for="email" class="font-bold" >Username</label><br>
+                                        <input type="email" id="email" placeholder="Enter your Mail" class="mx-5 my-2 bg-gray-300 rounded-md"/>
+
+                                        <br>
+
+                                        <div class="flex justify-between tracking-wide my-2 ">
+                                                  <label for="password" class="font-bold">Password</label>
+
+                                                  <div class="font-serif text-slate-500 ">
+                                                            <a class="mr-10px flex items-center justify-center" href="/forget.html" target="_blank">Forgot Password? </a>   
+                                                  </div>
+                                                  
+                                        </div>
+
+                                        
+                                        <input type="password" id="password" placeholder="Enter Your password" required class="mx-5 my-2 bg-gray-300 rounded-md"/>
+
+                                        <br>
+
+                                        <h4 class="font-bold my-2">Remember Me</h4>
+
+                                        <div class="flex justify-end">
+                                                  <button type="submit" class="font-bold bg-cyan-500 mt-0 text-white px-4 py-2 flex my-5 rounded-xl ">Login</button>
+                                        </div>
+
+                                        <div class="w-full mr-5 mt-0 flex items-center justify-center">
+                                                    Or Sign in With 
+                                        </div><br>
+
+                                        <div class="w-full mr-10 mt-0 flex items-center justify-center space-x-4 ">
+                                        <i class="fa fa-facebook bg-white rounded-[50%] p-2"  aria-hidden="true"></i>
+                                        <i class="fa fa-google bg-white rounded-[50%] p-2" aria-hidden="true"></i>
+                                        <i class="fa fa-twitter bg-white rounded-[50%] p-2" aria-hidden="true"></i><br>
+
+                                        </div>
+                                        <br>
+
+                                        <label for="signup">Not Yet Registered?
+                                                            <a href="/register.html" target="" class="font-bold my-2">Sign Up!</a> here.</label>
+                                                 
+                                                  
+                                        
+                                                                                          
+                                                  
+                    
+                              </form>
+
+                    </div>
+          </section>
+</body>
+</html>
